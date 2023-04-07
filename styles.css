@@ -1,4 +1,9 @@
-
+* {
+   /* border: solid 2px red; */
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 
 body {
     margin: auto;
@@ -9,12 +14,19 @@ body {
     background-attachment: fixed;
 }
 
-div.bigbtn {
+.btntxt {
     display: inline-block;
     background-color: limegreen;
     border-radius: 20px;
     padding: 10px;
-    
+}
+
+.btntxt:hover {
+   background-color: rgb(59, 241, 59);
+}
+
+.bigbtn {
+   display: inline-block;
 }
 
 .btntxt, a.recipe-button {
